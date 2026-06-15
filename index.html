@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redlands Chiropractic – Premier Chiropractor in Redlands, CA</title>
+  <meta name="description" content="Redlands Chiropractic offers expert chiropractic care, auto accident injury treatment, sports injury rehabilitation, and holistic wellness services in Redlands, CA. Book your appointment today!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Signika:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo" id="logo">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        Redlands <span>Chiropractic</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#process">How It Works</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-primary nav-cta" id="nav-book-btn">Book Now</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Trusted Chiropractor in Redlands, CA
+          </div>
+          <h1>Your Path to a <span class="accent">Pain-Free</span> Life Starts Here</h1>
+          <p class="hero-desc">Experience personalized chiropractic care designed to restore your body's natural balance. From auto injuries to sports performance — we help you move, feel, and live better.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" id="hero-schedule-btn">
+              Schedule Appointment
+              <span class="btn-icon">→</span>
+            </a>
+            <a href="tel:9097924434" class="btn btn-outline" id="hero-call-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              (909) 792-4434
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-number" id="stat-patients">5000+</div>
+              <div class="stat-label">Happy Patients</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">4.9</div>
+              <div class="stat-label">Google Rating</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="images/hero.png" alt="Professional chiropractic care at Redlands Chiropractic" id="hero-image">
+          </div>
+          <div class="hero-float-card">
+            <div class="hero-float-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div class="hero-float-text">
+              <strong>Same-Day Appointments</strong>
+              <span>Walk-ins Welcome</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-header reveal">
+        <div class="section-label">Our Services</div>
+        <h2 class="section-title">Comprehensive Chiropractic Care</h2>
+        <p class="section-desc">From pain relief to performance optimization — our full range of services is tailored to help you live your best life.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card reveal" id="service-chiropractic">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0089E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="3"/><path d="M12 8v4"/><path d="M9 12c-1.5 1-2.5 3-3 5"/><path d="M15 12c1.5 1 2.5 3 3 5"/><path d="M12 12v7"/></svg>
+          </div>
+          <h4>Chiropractic Care</h4>
+          <p>Precision spinal adjustments and treatments designed to alleviate pain, restore mobility, and optimize your nervous system function.</p>
+          <a href="#" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal" id="service-auto-accident">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0089E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h4>Auto Accident Injury</h4>
+          <p>Specialized care for whiplash, soft tissue damage, and post-collision recovery. Don't let an accident derail your life — we help you heal.</p>
+          <a href="#" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal" id="service-sports-physicals">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0089E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg>
+          </div>
+          <h4>Sports Physicals</h4>
+          <p>Comprehensive sports physicals ensuring you meet all health prerequisites for licensing or athletic participation — thorough and efficient.</p>
+          <a href="#" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card reveal" id="service-sports-injury">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0089E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+          </div>
+          <h4>Sports Injury</h4>
+          <p>Get back in the game faster. Our dedicated sports injury treatments target specific injuries, promote healing, and optimize performance.</p>
+          <a href="#" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card reveal" id="service-corrective-exercise">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0089E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
+          </div>
+          <h4>Corrective Exercises</h4>
+          <p>Move better, live better. Tailored exercise plans addressing postural and muscular imbalances for long-term health and functionality.</p>
+          <a href="#" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card reveal" id="service-posture">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0089E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 8.5 9 12l-3.5 3.5L2 12l3.5-3.5Z"/><path d="m12 2 3.5 3.5L12 9 8.5 5.5 12 2Z"/><path d="M18.5 8.5 22 12l-3.5 3.5L15 12l3.5-3.5Z"/><path d="m12 15 3.5 3.5L12 22l-3.5-3.5L12 15Z"/></svg>
+          </div>
+          <h4>Spinal & Postural Screening</h4>
+          <p>Prevention is the best cure. Proactive screenings detect potential issues early, ensuring timely interventions and spinal health.</p>
+          <a href="#" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="service-card reveal" id="service-nutrition">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0089E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2h6v6H2z"/><path d="M12 2c.5 5.5-2.5 8-6 9"/><path d="M19 2c-.5 5.5 2.5 8 6 9"/><path d="M16 2h6v6h-6z"/><path d="M12 22V12"/><path d="M12 12H6a4 4 0 0 0-4 4v6h20v-6a4 4 0 0 0-4-4h-6z"/></svg>
+          </div>
+          <h4>Nutritional Counseling</h4>
+          <p>Fuel your body right. Personalized diet plans and advice that complement your health goals and chiropractic treatments.</p>
+          <a href="#" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="service-card reveal" id="service-wellness">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0089E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h4>Lifestyle & Wellness</h4>
+          <p>Achieve balance in all aspects of life. Holistic lifestyle advice integrated with our chiropractic philosophy for total well-being.</p>
+          <a href="#" class="service-link">Learn More <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / WHY US ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <img src="images/about.png" alt="Welcoming chiropractic clinic in Redlands">
+          <div class="about-image-badge">
+            <strong>15+</strong>
+            <span>Years Serving Redlands</span>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <div class="section-label">Why Choose Us</div>
+          <h2 class="section-title">Dedicated to Your Health & Recovery</h2>
+          <p class="section-desc">At Redlands Chiropractic, we believe everyone deserves to live without pain. Our compassionate team combines advanced techniques with personalized care plans to help you heal naturally.</p>
+
+          <div class="about-features">
+            <div class="about-feature" id="feature-personalized">
+              <div class="about-feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div>
+                <h4>Personalized Treatment Plans</h4>
+                <p>Every patient receives a custom care plan tailored to their unique condition, goals, and lifestyle.</p>
+              </div>
+            </div>
+
+            <div class="about-feature" id="feature-sameday">
+              <div class="about-feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <h4>Same-Day Appointments</h4>
+                <p>We know pain doesn't wait. Walk-ins welcome — get the care you need when you need it.</p>
+              </div>
+            </div>
+
+            <div class="about-feature" id="feature-holistic">
+              <div class="about-feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <div>
+                <h4>Holistic Wellness Approach</h4>
+                <p>Beyond adjustments — nutrition, exercise, and lifestyle guidance for complete well-being.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="process-header reveal">
+        <div class="section-label">How It Works</div>
+        <h2 class="section-title">Your Journey to Wellness</h2>
+        <p class="section-desc">From your first visit to lasting relief, our streamlined process ensures you get the best care at every step.</p>
+      </div>
+
+      <div class="process-steps">
+        <div class="process-step reveal" id="step-1">
+          <div class="step-number">01</div>
+          <h4>Book Your Visit</h4>
+          <p>Schedule online or call us. Same-day appointments available — your relief shouldn't wait.</p>
+        </div>
+
+        <div class="process-step reveal" id="step-2">
+          <div class="step-number">02</div>
+          <h4>Comprehensive Exam</h4>
+          <p>Thorough assessment including spinal screening, posture analysis, and health history review.</p>
+        </div>
+
+        <div class="process-step reveal" id="step-3">
+          <div class="step-number">03</div>
+          <h4>Custom Treatment Plan</h4>
+          <p>A personalized care roadmap designed around your specific condition, goals, and timeline.</p>
+        </div>
+
+        <div class="process-step reveal" id="step-4">
+          <div class="step-number">04</div>
+          <h4>Feel the Difference</h4>
+          <p>Experience relief, improved mobility, and a renewed sense of well-being as you heal naturally.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header reveal">
+        <div class="section-label" style="color: rgba(255,255,255,0.7);">Testimonials</div>
+        <h2 class="section-title">What Our Patients Say</h2>
+        <p class="section-desc">Real stories from real patients who experienced the difference at Redlands Chiropractic.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal" id="testimonial-1">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I have nothing but glowing reviews for my visit. A friend recommended I stop by and I'm so very glad she did. Dr Hipara was kind, friendly, courteous and knowledgeable. The PT team was also well adept at making the whole experience comfortable. 10/10"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">TT</div>
+            <div>
+              <div class="testimonial-name">Turner Thompson</div>
+              <div class="testimonial-role">Local Guide</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" id="testimonial-2">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I was in full blown back spasm and they were able to see me the same day with minimal waiting. The office staff is nice and the therapy team are really sweet and helpful. Dr. Gallegos had me feeling almost back to 100% within 2 days!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MD</div>
+            <div>
+              <div class="testimonial-name">Monique Dixon</div>
+              <div class="testimonial-role">Local Guide</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" id="testimonial-3">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"If you're willing to put in the work, this staff cares and is knowledgeable and willing to guide you to get your body healed. I now know how to manage pain and strengthen my weakness! Awesome facility!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RS</div>
+            <div>
+              <div class="testimonial-name">Ray Sepulveda</div>
+              <div class="testimonial-role">Verified Patient</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta" id="contact">
+    <div class="container">
+      <div class="cta-card reveal">
+        <div class="cta-content">
+          <h2>Take the First Step Towards a Pain-Free Life!</h2>
+          <p>Let's embark on a transformative journey to wellness together. Don't wait — your optimal self is just a click away.</p>
+          <div class="cta-actions">
+            <a href="tel:9097924434" class="btn btn-white" id="cta-call-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call (909) 792-4434
+            </a>
+            <a href="#" class="btn btn-outline" style="color: white; border-color: rgba(255,255,255,0.4);" id="cta-schedule-btn">
+              Schedule Appointment
+              <span class="btn-icon">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="cta-info">
+          <div class="cta-info-card">
+            <div class="cta-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="cta-info-text">
+              <strong>Visit Our Clinic</strong>
+              <span>Redlands, CA 92373</span>
+            </div>
+          </div>
+
+          <div class="cta-info-card">
+            <div class="cta-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="cta-info-text">
+              <strong>Office Hours</strong>
+              <span>Mon–Fri: 9AM–6PM &nbsp;|&nbsp; Sat: 9AM–1PM</span>
+            </div>
+          </div>
+
+          <div class="cta-info-card">
+            <div class="cta-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div class="cta-info-text">
+              <strong>Insurance Accepted</strong>
+              <span>Most major plans welcome</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <div class="logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            Redlands <span>Chiropractic</span>
+          </a>
+          <p>Your trusted partner in natural health and wellness. Proudly serving the Redlands community with compassionate, expert chiropractic care.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook" id="social-fb">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" id="social-ig">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Google" id="social-google">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </a>
+            <a href="#" aria-label="Yelp" id="social-yelp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.16 12.594l-4.995 1.433a.592.592 0 01-.757-.6l.24-5.218a.592.592 0 01.854-.484l4.755 2.785a.592.592 0 01-.097 1.084z"/><path d="M14.074 15.553l3.655 3.467a.592.592 0 01-.192 1.002l-5.03 1.8a.592.592 0 01-.786-.647l1.553-5.267a.592.592 0 01.8-.355z"/><path d="M12.026 13.827l-3.98 3.16a.592.592 0 01-.972-.35l-.74-5.25a.592.592 0 01.655-.672l4.72.64a.592.592 0 01.317 1.072z"/><path d="M11.113 2.445l-1.89 9.66a.592.592 0 01-.878.38L3.58 9.372a.592.592 0 01.11-1.05l6.467-6.218a.592.592 0 01.957.341z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Chiropractic Care</a></li>
+            <li><a href="#">Auto Accident Injury</a></li>
+            <li><a href="#">Sports Physicals</a></li>
+            <li><a href="#">Sports Injury</a></li>
+            <li><a href="#">Nutritional Counseling</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Redlands, CA 92373</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>(909) 792-4434</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Mon–Fri: 9AM–6PM<br>Sat: 9AM–1PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Redlands Chiropractic. All rights reserved.</span>
+        <span>Built with care for the <a href="#">Redlands community</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script>
+    // Mobile Navigation Toggle
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    mobileToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const spans = mobileToggle.querySelectorAll('span');
+      if (navLinks.classList.contains('active')) {
+        spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+        spans[1].style.opacity = '0';
+        spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+      } else {
+        spans[0].style.transform = 'none';
+        spans[1].style.opacity = '1';
+        spans[2].style.transform = 'none';
+      }
+    });
+
+    // Close mobile nav on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        const spans = mobileToggle.querySelectorAll('span');
+        spans[0].style.transform = 'none';
+        spans[1].style.opacity = '1';
+        spans[2].style.transform = 'none';
+      });
+    });
+
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Scroll reveal animation
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, index * 80);
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Animated counter for stats
+    function animateCounter(element, target, suffix = '') {
+      const duration = 2000;
+      const start = 0;
+      const startTime = performance.now();
+
+      function update(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.floor(eased * target);
+        element.textContent = current.toLocaleString() + suffix;
+        if (progress < 1) {
+          requestAnimationFrame(update);
+        }
+      }
+      requestAnimationFrame(update);
+    }
+
+    // Observe stats for counter animation
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const statNumbers = document.querySelectorAll('.stat-number');
+          animateCounter(statNumbers[0], 5000, '+');
+          animateCounter(statNumbers[1], 15, '+');
+          animateCounter(statNumbers[2], 4.9, '');
+          statNumbers[2].textContent = '4.9';
+          setTimeout(() => { statNumbers[2].textContent = '4.9'; }, 2100);
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    const statsSection = document.querySelector('.hero-stats');
+    if (statsSection) statsObserver.observe(statsSection);
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+          const headerOffset = 90;
+          const elementPosition = target.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
